@@ -47,6 +47,23 @@
                   }
                 }
               }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "movement_affected_by": {
+                    "fluid": {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ]
+                    }
+                  }
+                }
+              }
             }
           ]
         },
