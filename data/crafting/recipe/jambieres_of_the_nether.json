@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_leggings",
+  "addition": "#netherstar_enchantment:beacon_payment_blocks",
+  "template": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Jambières of the Nether\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Ces jambières have been infused\",\"italic\":true,\"color\":\"gray\"}",
+        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "netherstar_enchantment:jump_boost": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

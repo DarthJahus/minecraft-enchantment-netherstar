@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_sword",
+  "addition": "#netherstar_enchantment:beacon_payment_blocks",
+  "template": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Épée of the Nether\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Cette épée has been infused\",\"italic\":true,\"color\":\"gray\"}",
+        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "netherstar_enchantment:strength": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

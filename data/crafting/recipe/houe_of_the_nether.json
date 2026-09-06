@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_hoe",
+  "addition": "#netherstar_enchantment:beacon_payment_blocks",
+  "template": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Houe of the Nether\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Cette houe has been infused\",\"italic\":true,\"color\":\"gray\"}",
+        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "netherstar_enchantment:haste": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

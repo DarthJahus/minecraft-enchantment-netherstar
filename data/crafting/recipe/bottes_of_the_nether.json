@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:netherite_boots",
+  "addition": "#netherstar_enchantment:beacon_payment_blocks",
+  "template": "minecraft:nether_star",
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Bottes of the Nether\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Ces bottes have been infused\",\"italic\":true,\"color\":\"gray\"}",
+        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "netherstar_enchantment:speed": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
