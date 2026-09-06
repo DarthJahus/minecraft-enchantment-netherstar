@@ -53,8 +53,8 @@
         "effect": {
           "type": "minecraft:apply_mob_effect",
           "to_apply": "minecraft:jump_boost",
-          "min_duration": 14.9,
-          "max_duration": 15.1,
+          "min_duration": 15,
+          "max_duration": 15.9,
           "min_amplifier": {
             "type": "minecraft:linear",
             "base": 0,
