@@ -1,5 +1,4 @@
 {
-  "exclusive_set": "#minecraft:exclusive_set/boots",
   "anvil_cost": 40,
   "description": "Resistance",
   "max_cost": {
