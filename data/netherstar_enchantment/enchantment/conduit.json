@@ -1,0 +1,63 @@
+{
+  "anvil_cost": 40,
+  "description": "Conduit",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_in_water": true
+                },
+                "location": {
+                  "fluid": {
+                    "fluids": "#minecraft:water"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "level": {
+                    "min": 40
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:conduit_power",
+          "min_duration": 5,
+          "max_duration": 5.9,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  }
+}

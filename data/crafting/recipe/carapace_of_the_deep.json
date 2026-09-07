@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:turtle_helmet",
+  "addition": "minecraft:sea_lantern",
+  "template": "minecraft:conduit",
+  "result": {
+    "id": "minecraft:turtle_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": "{\"text\":\"Carapace of the Deep\",\"italic\":false}",
+      "minecraft:lore": [
+        "{\"text\":\"Cette carapace de turtle has been\",\"italic\":true,\"color\":\"gray\"}",
+        "{\"text\":\"infused avec le pouvoir of the Conduit.\",\"italic\":true,\"color\":\"gray\"}"
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "netherstar_enchantment:conduit": 1,
+          "netherstar_enchantment:turtle": 1
+        },
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

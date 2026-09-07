@@ -1,0 +1,67 @@
+{
+  "anvil_cost": 0,
+  "description": "Turtle",
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": [
+    "minecraft:turtle_helmet"
+  ],
+  "weight": 1,
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "movement_affected_by": {
+                    "fluid": {
+                      "fluids": [
+                        "minecraft:water",
+                        "minecraft:flowing_water"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "horizontal_speed": {
+                    "max": 0.01
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:slowness",
+          "min_duration": 5.0,
+          "max_duration": 5.9,
+          "min_amplifier": 1,
+          "max_amplifier": 1
+        }
+      }
+    ]
+  }
+}
