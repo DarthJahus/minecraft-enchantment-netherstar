@@ -8,16 +8,24 @@
     "count": 1,
     "components": {
       "minecraft:rarity": "epic",
-      "minecraft:custom_name": "{\"text\":\"Jambières of the Nether\",\"italic\":false}",
+      "minecraft:custom_name": {
+        "text": "Jambières of the Nether",
+        "italic": false
+      },
       "minecraft:lore": [
-        "{\"text\":\"Ces jambières have been infused\",\"italic\":true,\"color\":\"gray\"}",
-        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+        {
+          "text": "Ces jambières have been infused",
+          "italic": true,
+          "color": "gray"
+        },
+        {
+          "text": "avec la puissance de la Nether Star.",
+          "italic": true,
+          "color": "gray"
+        }
       ],
       "minecraft:enchantments": {
-        "levels": {
-          "netherstar_enchantment:jump_boost": 1
-        },
-        "show_in_tooltip": true
+        "netherstar_enchantment:jump_boost": 1
       }
     }
   }

@@ -8,16 +8,24 @@
     "count": 1,
     "components": {
       "minecraft:rarity": "epic",
-      "minecraft:custom_name": "{\"text\":\"Pioche of the Nether\",\"italic\":false}",
+      "minecraft:custom_name": {
+        "text": "Pioche of the Nether",
+        "italic": false
+      },
       "minecraft:lore": [
-        "{\"text\":\"Cette pioche has been infused\",\"italic\":true,\"color\":\"gray\"}",
-        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+        {
+          "text": "Cette pioche has been infused",
+          "italic": true,
+          "color": "gray"
+        },
+        {
+          "text": "avec la puissance de la Nether Star.",
+          "italic": true,
+          "color": "gray"
+        }
       ],
       "minecraft:enchantments": {
-        "levels": {
-          "netherstar_enchantment:haste": 1
-        },
-        "show_in_tooltip": true
+        "netherstar_enchantment:haste": 1
       }
     }
   }

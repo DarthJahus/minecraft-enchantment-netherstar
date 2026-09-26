@@ -22,11 +22,10 @@
         "enchanted": "victim",
         "affected": "victim",
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type_specific": {
-              "type": "minecraft:player",
+            "type_specific/player": {
               "level": {
                 "min": 30
               }

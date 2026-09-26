@@ -8,16 +8,24 @@
     "count": 1,
     "components": {
       "minecraft:rarity": "epic",
-      "minecraft:custom_name": "{\"text\":\"Bottes of the Nether\",\"italic\":false}",
+      "minecraft:custom_name": {
+        "text": "Bottes of the Nether",
+        "italic": false
+      },
       "minecraft:lore": [
-        "{\"text\":\"Ces bottes have been infused\",\"italic\":true,\"color\":\"gray\"}",
-        "{\"text\":\"avec la puissance de la Nether Star.\",\"italic\":true,\"color\":\"gray\"}"
+        {
+          "text": "Ces bottes have been infused",
+          "italic": true,
+          "color": "gray"
+        },
+        {
+          "text": "avec la puissance de la Nether Star.",
+          "italic": true,
+          "color": "gray"
+        }
       ],
       "minecraft:enchantments": {
-        "levels": {
-          "netherstar_enchantment:speed": 1
-        },
-        "show_in_tooltip": true
+        "netherstar_enchantment:speed": 1
       }
     }
   }

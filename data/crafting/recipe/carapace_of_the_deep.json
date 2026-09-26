@@ -8,17 +8,25 @@
     "count": 1,
     "components": {
       "minecraft:rarity": "epic",
-      "minecraft:custom_name": "{\"text\":\"Carapace of the Deep\",\"italic\":false}",
+      "minecraft:custom_name": {
+        "text": "Carapace of the Deep",
+        "italic": false
+      },
       "minecraft:lore": [
-        "{\"text\":\"Cette carapace de turtle has been\",\"italic\":true,\"color\":\"gray\"}",
-        "{\"text\":\"infused avec le pouvoir of the Conduit.\",\"italic\":true,\"color\":\"gray\"}"
+        {
+          "text": "Cette carapace de turtle has been",
+          "italic": true,
+          "color": "gray"
+        },
+        {
+          "text": "infused avec le pouvoir of the Conduit.",
+          "italic": true,
+          "color": "gray"
+        }
       ],
       "minecraft:enchantments": {
-        "levels": {
-          "netherstar_enchantment:conduit": 1,
-          "netherstar_enchantment:turtle": 1
-        },
-        "show_in_tooltip": true
+        "netherstar_enchantment:conduit": 1,
+        "netherstar_enchantment:turtle": 1
       }
     }
   }
