@@ -4,6 +4,9 @@ Portable beacon effects on your gear, …
 
 … a **selfish beacon**.
 
+[![Modrinth](https://img.shields.io/modrinth/dt/jahus-enchantment-netherstar?logo=modrinth&label=Modrinth)](https://modrinth.com/datapack/jahus-enchantment-netherstar)
+[![CurseForge](https://img.shields.io/curseforge/dt/1720135?logo=curseforge&label=CurseForge)](https://www.curseforge.com/projects/1720135)
+
 In PvP / PvE, classic beacons are often underused: the range is limited and moving a full pyramid is tedious.
 These enchantments bring beacon-like powers directly onto your equipment.
 No structure required. Just wear or hold the right item, keep enough XP levels and the effect applies to **you**.
